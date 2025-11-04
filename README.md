@@ -34,7 +34,7 @@ A solução é dividida em duas partes principais:
 │  
 └── 🚀 app.py                 \# Aplicação web Streamlit (Ferramenta de Recomendação)
 
-*(Nota: Os arquivos .csv estão na raiz neste projeto, mas um README ideal sugere uma pasta dados/)*
+
 
 ### **Descrição dos Arquivos Principais**
 
