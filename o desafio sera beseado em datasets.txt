@@ -1,0 +1,11 @@
+o desafio sera beseado em datasets de previõa de vendas( store item demand forecasting chalenge) que fornece o histórico de vendas diárias ou semanais de múltiplos produtos (skus) em diversas regiões
+a missão
+a missão dos participantes é desenvolver uma solução de data science de ponta a ponta que otimize o inventario, combinando previsão precisa de demando com uma ferramenta de recomendação de gestão de estoque
+
+Parte 1: O modelo preditivo
+Os times deverão construir e treinar um modelo de séries temporais (que pode ser ARIMA, Prophet ou modelos de machine learning/ deep learning com técnicas avançadas) capaz de prever a demanda diária ou semanal para cada item nas próximas 4 a 6 semanas.
+O modelo deve, obrigatoriamente, incorporar e lidar com a forte sazonalidade (incluindo feriados e datas comemorativas) e as tendências de vendas.
+
+Parte 2: A ferramenta de recomendação (produto de dados)
+A previsão precisa é apenas um insumo. Com base no modelo preditivo, os times deverão prototipar uma ferramenta de recomendação que ofereça uma resposta acionável:
+“Quantas unidades do item X na loja Y devem ser solicitadas ao centro de distribuição para o próximo mês, considerando um nível de serviço (ex.: 95% de chance de não faltar) e o custo de manutenção do estoque.”
